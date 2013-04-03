@@ -6,8 +6,9 @@ var http = require('http'),
     connection = config.mysql;
 
 exports.save = function (options, callback) {
-    var post = {name: options.name, email: options.email, bring: options.bring, from: options.from },
-        "INSERT INTO nodecopter SET ?";
+    var post = {name: options.name, email: options.email, bring: options.bring, from: options.from };
     connection.connect();
-
+    connection.query('INSERT INTO nodecopter SET ?', post, function (err, result) {
+        console.log(result);
+    });
 };
