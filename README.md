@@ -1,2 +1,5 @@
-Node copter hackathon web site
-========
+
+NodeCopter
+
+The awsome site of NodeCoper by Kompiler 
+
