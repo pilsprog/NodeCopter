@@ -1,4 +1,2 @@
-NodeCopter
-==========
-
-The awsome cite of NodeCoper by Kompiler 
+Node copter hackathon web site
+========
