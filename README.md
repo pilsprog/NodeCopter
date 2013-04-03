@@ -1,4 +1,4 @@
 NodeCopter
 ==========
 
-The awsome cite of NodeCoper by Kompiler 
+The awsome site of NodeCoper by Kompiler 
